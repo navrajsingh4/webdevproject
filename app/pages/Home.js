@@ -10,7 +10,7 @@ function Home() {
 
   return (
     <div className="home">
-    <img src={shoImage} alt="Background" />
+    <img class="img" src={shoImage.src} alt="Background" />
       <div className="headerContainer">
         <h1> LIV Shoes </h1>
         <p> SHOES TO FIT ANY TASTE</p>
