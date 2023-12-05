@@ -1,0 +1,32 @@
+/* NavBar.module.css */
+.navbar {
+    background-color: black;
+    padding: 10px 0;
+  }
+  
+  .navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navItem button {
+    color: black;
+    border:0cap;
+    border-radius: 3px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #121619;
+    height: 40px;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navItem button:hover {
+    background-color: deepskyblue;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  } 
+  
