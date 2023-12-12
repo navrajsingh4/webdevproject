@@ -1,4 +1,5 @@
 import {React} from "react";
+import Link from 'next/link';
 import Footer from "app/components/Footer.js";
 import '../css/HomeStyles.css'; // Importing the CSS file\
 import NavBar from 'app/components/Navbar.js';
@@ -7,19 +8,14 @@ import shoImage from '../assets/images/sho.png'; // Correct path to your image
 
 
 function Home() {
-  const handleOrderNow = () => {
-    // console.log("Order Now button clicked");
-  };
-
-  // console.log(testimg.src);
-
   return (
     <div className="home">
     <NavBar/>
       <div className="headerContainer">
         <h1> LIV Shoes </h1>
         <p> SHOES TO FIT ANY TASTE</p>
-        <button onClick={handleOrderNow()}> ORDER NOW</button>
+        <button><Link href="/menu">
+            Order Now </Link></button>
       </div>
       <Footer />
     </div>
