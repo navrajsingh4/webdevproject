@@ -18,8 +18,16 @@ function NavBar() {
           </Link>
         </li>
         <li className="navItem">
+          <Link href="/menu"><button>
+            Order Now</button>
+          </Link>
+        </li><li className="navItem">
           <Link href="/aboutus"><button>
             About Us</button>
+          </Link>
+        </li><li className="navItem">
+          <Link href="/contact"><button>
+            Contact Us</button>
           </Link>
         </li>
       </ul>
